@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .projects-container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        .projects-container h1 {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 32px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .grid-item {
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .grid-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .project-info {
+            padding: 20px;
+        }
+
+        .project-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .project-description {
+            font-size: 16px;
+            color: #666;
+        }
+    </style>
+    <title>My Projects</title>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html">Home</a>
+        <a href="resume.html">My qualifications</a>
+        <a href="projects.html">My projects</a>
+        <a href="service.html">More about me</a>
+        <a href="contact.html">Contact me</a>
+    </div>
+    <div class="projects-container">
+        <h1>My Projects</h1>
+        <div class="grid">
+            <div class="grid-item">
+                <img src="project1.jpg" alt="Project 1 Thumbnail">
+                <div class="project-info">
+                    <h2 class="project-title">Interactive mapping tool</h2>
+                    <p class="project-description"></p>
+                </div>
+            </div>
+            <div class="grid-item">
+                <img src="project2.jpg" alt="Project 2 Thumbnail">
+                <div class="project-info">
+                    <h2 class="project-title">Pantry Tracker</h2>
+                    <p class="project-description"></p>
+                </div>
+            </div>
+            <div class="grid-item">
+                <img src="project3.jpg" alt="Project 3 Thumbnail">
+                <div class="project-info">
+                    <h2 class="project-title">Personalized Skincare Routine</h2>
+                    <p class="project-description"></p>
+                </div>
+            </div>
+            <div class="grid-item">
+                <img src="project4.jpg" alt="Project 4 Thumbnail">
+                <div class="project-info">
+                    <h2 class="project-title">Spotify Data Dashboard</h2>
+                    <p class="project-description"></p>
+                </div>
+            </div>
+            <div class="grid-item">
+                <img src="project5.jpg" alt="Project 5 Thumbnail">
+                <div class="project-info">
+                    <h2 class="project-title">AI customer service bot</h2>
+                    <p class="project-description"></p>
+                </div>
+            </div>
+            <div class="grid-item">
+                <img src="project6.jpg" alt="Project 6 Thumbnail">
+                <div class="project-info">
+                    <h2 class="project-title">Student busing app</h2>
+                    <p class="project-description"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
